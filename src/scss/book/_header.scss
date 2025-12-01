@@ -19,5 +19,22 @@ header {
   nav {
     display: var(--nav-display);
     gap: 1.5rem;
+
+    .active {
+      position: relative;
+      color: var(--primary-color);
+
+      &::after {
+        content: "";
+        display: block;
+        width: 5px;
+        height: 5px;
+        background-color: var(--primary-color);
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 2.5px);
+        bottom: -8px;
+      }
+    }
   }
 }
