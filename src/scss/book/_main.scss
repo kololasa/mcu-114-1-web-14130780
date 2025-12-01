@@ -25,6 +25,8 @@ section {
     padding-right: var(--container-padding-right);
 
     > div {
+      padding-block: 4rem;
+
       &.home {
         height: 100vh;
       }
