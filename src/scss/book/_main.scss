@@ -18,4 +18,21 @@ section {
       }
     }
   }
+
+  main.wrapper {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-left: var(--container-padding-left);
+    padding-right: var(--container-padding-right);
+
+    > div {
+      &.home {
+        height: 100vh;
+      }
+
+      &.page {
+        min-height: 700px;
+      }
+    }
+  }
 }
