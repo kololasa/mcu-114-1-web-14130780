@@ -6,6 +6,7 @@ div.home {
 
   > div {
     width: 50%;
+
     &.text {
       display: flex;
       flex-direction: column;
@@ -56,21 +57,10 @@ div.home {
           }
         }
 
-        &.icon {
+        &.icons {
           margin-top: 1rem;
           display: flex;
           gap: 1.75rem;
-
-          .icon {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-            cursor: pointer;
-          }
         }
       }
     }
