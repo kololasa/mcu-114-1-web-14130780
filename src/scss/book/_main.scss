@@ -33,6 +33,22 @@ section {
 
       &.page {
         min-height: 700px;
+
+        div {
+          &.title {
+            margin-top: 1.5rem;
+            text-align: center;
+
+            h2 {
+              margin: 0;
+              margin-bottom: 0.5rem;
+            }
+
+            strong {
+              color: var(--gray-color-500);
+            }
+          }
+        }
       }
     }
   }
